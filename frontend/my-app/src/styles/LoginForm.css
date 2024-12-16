@@ -1,0 +1,56 @@
+/* Styling for Login Form */
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #3498db;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  input {
+    width: 100%;
+    height: 40px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1abc9c;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 1rem;
+    color: #2ecc71;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
